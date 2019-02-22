@@ -20,12 +20,32 @@ echo -e "4/5 ${YELLOW}Creating ESLint JSON... ${NC}"
 touch .eslintrc.json
 
 echo '{
-  "extends": ["airbnb", "prettier", "react-app", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"],
-    "jsx-a11y/href-no-hash": [0],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-console": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": true
+      }
+    ]
   }
 }' >> .eslintrc.json
 
@@ -33,9 +53,9 @@ echo -e "5/5 ${YELLOW}Creating Custom Prettier Config... ${NC}"
 touch .prettierrc
 
 echo '{
-  "printWidth": 100,
-  "singleQuote": true
+  "printWidth": 100
 }' >> .prettierrc
 
 echo -e "${GREEN}Done! ${NC}"
+
 

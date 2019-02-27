@@ -18,9 +18,13 @@ cd myApp
 ```
 
 3. Run the shell script under **your app's root directory**. 
-
+* For backend repo, run
 ```
-~/your-style-config-path/style-config/eslint-prettier-config.sh
+~/your-style-config-path/style-config/eslint-prettier-config-backend.sh
+```
+* For frontend repo that uses React, run 
+```
+~/your-style-config-path/style-config/eslint-prettier-config-frontend.sh
 ```
 
 4. The shell script added two config files

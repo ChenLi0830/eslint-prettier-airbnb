@@ -8,7 +8,6 @@
 1. Clone this repo somewhere on your machine, and _NOT_ in your app's directory.
 
 ```
-cd
 git clone https://github.com/ChenLi0830/eslint-prettier-airbnb style-config
 ```
 

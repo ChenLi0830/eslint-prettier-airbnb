@@ -5,24 +5,24 @@
 ## Installation
 ##### You will need _npm/npx_ installed. It will work on Windows, but just needs to be run in a bash shell, like VS Code's integrated terminal. 
 
-1. Clone this repo somewhere on your machine, and _NOT_ in your app's directory.
+1. Clone this repo somewhere on your machine, and _NOT_ in your project's directory.
 
 ```
 git clone https://github.com/ChenLi0830/eslint-prettier-airbnb style-config
 ```
 
-2. Navigate to your app directory where you want to include this style configuration.
+2. Navigate to your project directory where you want to include this style configuration.
 
 ```
-cd myApp
+cd myProject
 ```
 
-3. Run the shell script under **your app's root directory**. 
-* For backend repo, run
+3. Run the shell script under **your project's root directory**. 
+* For backend project, run
 ```
 ~/your-style-config-path/style-config/eslint-prettier-config-backend.sh
 ```
-* For frontend repo that uses React, run 
+* For frontend project that uses React, run 
 ```
 ~/your-style-config-path/style-config/eslint-prettier-config-frontend.sh
 ```

@@ -1,6 +1,6 @@
-# ESLint/Prettier & Airbnb's Style Guide for React Apps
+# Adding ESLint/Prettier & Airbnb's Style Guide To Your Project
 
-**Make sure you `npm init`, or at least have a _package.json_ file before proceeding!**
+**Make sure you `npm init`, or at least have a package.json file before proceeding!**
 
 ## Installation
 ##### You will need _npm/npx_ installed. It will work on Windows, but just needs to be run in a bash shell, like VS Code's integrated terminal. 

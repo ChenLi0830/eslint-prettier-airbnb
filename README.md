@@ -17,10 +17,10 @@ git clone https://github.com/ChenLi0830/eslint-prettier-airbnb style-config
 cd myApp
 ```
 
-3. Run the shell script under **your app's root directory**. (_The example below assumes you cloned this repo inside your home directory_)
+3. Run the shell script under **your app's root directory**. 
 
 ```
-~/your/repo/path/style-config/eslint-prettier-config.sh
+~/your-style-config-path/style-config/eslint-prettier-config.sh
 ```
 
 4. The shell script added two config files
